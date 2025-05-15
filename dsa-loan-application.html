@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSA Loan Application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 600px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>DSA Loan Application Form</h2>
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSd1K-oqc8pRHUzDZH2-V_tU43iR7BBZh4jU3bYjJtkavm4J9Q/formResponse" method="POST" target="_blank">
+            <label for="name">Full Name:</label>
+            <input type="text" name="entry.1433436087" id="name" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="entry.1361601401" id="phone" required>
+
+            <label for="email">Email:</label>
+            <input type="email" name="entry.1062562122" id="email">
+
+            <label for="loan">Loan Amount Needed:</label>
+            <input type="number" name="entry.1491369196" id="loan" required>
+
+            <label for="income">Monthly Income:</label>
+            <input type="text" name="entry.912401373" id="income" required>
+
+            <label for="city">City:</label>
+            <input type="text" name="entry.737647438" id="city" required>
+
+            <label for="notes">Additional Notes:</label>
+            <textarea name="entry.1307900036" id="notes" rows="4"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
