@@ -1,1 +1,24 @@
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLS..." ... ></iframe>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apply for a Loan - Aaravi Digital</title>
+</head>
+<body style="margin: 0; padding: 0;">
+
+  <h2 style="text-align:center;">Apply for a Loan - Aaravi Digital</h2>
+
+  <iframe 
+    src="https://docs.google.com/forms/d/e/1FAIpQLSev9A1LwaAgbVUJqmkG58wNZmYB-u3AKjTYx-N8SfT7ZqtxJQ/viewform?embedded=true" 
+    width="100%" 
+    height="1500" 
+    frameborder="0" 
+    marginheight="0" 
+    marginwidth="0"
+    style="border:none; display:block; margin:auto;">
+    Loading…
+  </iframe>
+
+</body>
+</html>
